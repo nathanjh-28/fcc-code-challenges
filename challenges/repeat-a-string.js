@@ -14,6 +14,16 @@ function repeatStringNumTimes(str, num) {
     return arr.join('');
 }
 
+function repeatStringNumTimes(str, num) {
+    let newString = '';
+    for (let i = num; i > 0; i--) {
+        newString += str
+    }
+    return newString;
+}
+
+repeatStringNumTimes("abc", 3);
+
 
 
 repeatStringNumTimes("abc", 3); //  'abcabcabc'
